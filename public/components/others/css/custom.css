@@ -1,0 +1,385 @@
+html, body, #container { height: 100%; }
+body > #container { height: auto; min-height: 100%; }
+#container { margin-top: 15px; padding-bottom: 3em; }
+
+.container {
+    width: auto;
+    width: 60%;
+    padding: 0 15px;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.btn-transparent{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color : #797979;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+}
+.breadcrumb{
+    border: 1px solid #D3D6DB;
+    color: #324C57;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.navbar{
+    border-radius: 0px;
+}
+
+.img-avatar{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px solid rgba(50, 76, 87, 0.2);
+    display: inline-block;
+}
+
+.img-avatar-small{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid rgba(50, 76, 87, 0.2);
+    display: inline-block;
+}
+
+.img-full{
+    max-width: 300%;
+    width: 100%;
+    height: auto;
+}
+
+.body-profile{
+    background-color: #dbdbdb;
+}
+.nav-profile{
+    border: 1px solid #D3D6DB;
+    border-bottom: 0px;
+    color: #324C57;
+    background-color: rgba(255,255,255,0.7);
+}
+.modal-profile{
+    color: #324C57;
+    background-color: rgba(255,255,255,0.7);
+}
+.panel-profile{
+    border: 1px solid rgba(0,0,0,0.09);
+    color: #324C57;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.panel-no-radius{
+    border-top: 0px;
+    border-radius: 0px;
+}
+
+.panel-profile hr{
+    border-top: 1px solid rgba(219, 219, 219, 0.5); margin: 5px;
+}
+
+.panel-profile p{
+    margin-bottom: 0px;
+}
+
+.panel-profile .panel-heading{
+    border-top: 0.5px solid rgba(0,0,0,0.07);
+    border-bottom: 0px;
+    background-color: rgba(0,0,0,0.09);
+}
+
+.well{
+    background-color: rgba(0,0,0,0.05);
+}
+
+.panel-header{
+    margin: 0px;
+}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+
+.message-body{
+    line-height: 1.5;
+    color: #000;
+    font: 12px "Open Sans",Arial;
+    text-align: left;
+}
+
+.message-body ul, .message-body ol{padding:0 0 0 30px}
+
+.input-comment {
+    color: #000;
+    font: 12px "Open Sans",Arial;
+    border-radius: 0px;
+    padding: 5px;
+    max-height:100px;
+    resize:none;
+}
+
+.footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    min-height: 320px;
+    background: -webkit-linear-gradient(rgba(219, 219, 219, 0), rgba(0, 0, 0, 0.9)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(219, 219, 219, 0), rgba(0, 0, 0, 0.9)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(219, 219, 219, 0), rgba(0, 0, 0, 0.9)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(219, 219, 219, 0), rgba(0, 0, 0, 0.9)); /* Standard syntax */
+}
+
+.footer-text {
+    color: #ffffff;
+}
+
+.schedule{
+    
+}
+
+.schedule p{
+    color: #324C57;
+}
+
+.schedule .badge{
+    border-radius: 50%;
+}
+
+.schedule .badge:hover{
+    background: rgb(149, 165, 166);
+}
+
+.btn-trans{
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+}
+
+.datepicker{z-index:1151 !important;}
+
+.unselectable{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.banner-extra{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    z-index: 2;
+    margin-left: -17px;
+    height: 60px;
+    width: 120px;
+}
+
+.banner-logo {
+    display: block;
+}
+
+.banner-text {
+    color: rgba(255,255,255,.9);
+    text-shadow: 0 0 1px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.8);
+}
+
+.banner {
+    border: 1px solid #D3D6DB;
+    position: relative;
+    width: 100% !important;
+    overflow: auto;
+
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+
+    color: rgba(0,0,0,.7);
+    text-shadow: 0 0 1px rgba(255,255,255,.4), 0 1px 2px rgba(255,255,255,.6);
+
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+.banner ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 300%;
+}
+
+.banner ul li {
+    display: block;
+    float: left;
+    width: 33%;
+    margin: 0px;
+    padding: 30px 0 0px;
+
+    min-height: 350px;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    background-size: 100% 100%;
+    box-shadow: inset 0 -3px 6px rgba(0,0,0,.1);
+}
+
+.banner h1, .banner h2, .banner h3, .banner h4, .banner h5, .banner h6{
+    margin: 0px;
+
+    color: rgba(255,255,255,.9);
+    text-shadow: 0 0 1px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.8);
+}
+
+.banner p{
+    margin: 0px;
+}
+
+.banner .btn-banner {
+    display: inline-block;
+    margin: 25px 0 0;
+    padding: 9px 22px 7px;
+    clear: both;
+
+    color: rgba(255,255,255,.9);
+    text-shadow: 0 0 1px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.8);
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    border: 2px solid rgba(255,255,255,.4);
+    border-radius: 5px;
+}
+.banner .btn-banner:hover {
+    background: rgba(255,255,255,.3);
+}
+.banner .btn-banner:active {
+    -webkit-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+    -moz-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+    -ms-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+    -o-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+    filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
+}
+
+.banner .btn-banner, .banner .dot {
+    -webkit-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+}
+
+.banner .dots {
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+}
+
+.banner .dots li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+
+    text-indent: -999em;
+
+    border: 2px solid #000;
+    border-radius: 6px;
+
+    cursor: pointer;
+    opacity: .4;
+
+    -webkit-transition: background .5s, opacity .5s;
+    -moz-transition: background .5s, opacity .5s;
+    transition: background .5s, opacity .5s;
+}
+
+.banner .dots li.active {
+    background: #000;
+    opacity: 1;
+}
+
+.dropdown-menu.extended {
+    max-width: 400px !important;
+    min-width: 160px !important;
+    top: 42px;
+    width: 300px !important;
+    padding: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.176) !important;
+    border: none !important;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.dropdown-menu.extended li p {
+    background-color: #F1F2F7;
+    color: #666666;
+    margin: 0;
+    padding: 10px;    
+}
+
+.dropdown-menu.extended li p.grey {
+    background-color: #688a7e;
+    color: #fff;
+}
+
+.dropdown-menu.extended li a {
+    border-bottom: 1px solid #EBEBEB !important;
+    font-size: 12px;
+    list-style: none;
+}
+
+.dropdown-menu.extended li a {
+    padding: 15px 10px !important;
+    width: 100%;
+    display: inline-block;
+}
+
+.dropdown-menu.extended li a:hover {
+    background-color: #F7F8F9 !important;
+    color: #2E2E2E;
+    border-bottom: 1px solid #688a7e !important;
+}
+
+.dropdown-arrow {
+    border-style: solid;
+    border-width: 0 9px 9px;
+    height: 0;
+    margin-top: 0;
+    opacity: 0;
+    position: absolute;
+    right: 7px;
+    top: -18px;
+    transition: all 0.25s ease 0s;
+    width: 0;
+    z-index: 10;
+    margin-top: 10px;
+    opacity: 1;
+}
+
+.dropdown-arrow-grey{
+    border-color: transparent transparent #688a7e;
+    border-bottom-color: #688a7e !important;
+    border-top-color: #688a7e !important;
+}

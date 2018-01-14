@@ -1,0 +1,72 @@
+[14-Sep-2015 17:30:43 UTC] PHP Fatal error:  Using $this when not in object context in /home/rpinterf/public_html/application/model/RegistrationModel.php on line 66
+[14-Sep-2015 17:38:27 UTC] PHP Fatal error:  Using $this when not in object context in /home/rpinterf/public_html/application/core/Text.php on line 15
+[14-Sep-2015 17:55:44 UTC] PHP Fatal error:  Class 'TextModel' not found in /home/rpinterf/public_html/application/core/View.php on line 29
+[14-Sep-2015 17:55:46 UTC] PHP Fatal error:  Class 'TextModel' not found in /home/rpinterf/public_html/application/core/View.php on line 29
+[14-Sep-2015 17:55:55 UTC] PHP Fatal error:  Class 'TextModel' not found in /home/rpinterf/public_html/application/core/View.php on line 29
+[14-Sep-2015 17:55:57 UTC] PHP Fatal error:  Class 'TextModel' not found in /home/rpinterf/public_html/application/core/View.php on line 29
+[14-Sep-2015 17:55:57 UTC] PHP Fatal error:  Class 'TextModel' not found in /home/rpinterf/public_html/application/core/View.php on line 29
+[14-Sep-2015 17:55:59 UTC] PHP Fatal error:  Class 'TextModel' not found in /home/rpinterf/public_html/application/core/View.php on line 29
+[14-Sep-2015 17:56:46 UTC] PHP Fatal error:  Class 'TextModel' not found in /home/rpinterf/public_html/application/core/View.php on line 29
+[15-Sep-2015 11:43:52 UTC] PHP Fatal error:  require(): Failed opening required '/home/rpinterf/public_html/main/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rpinterf/public_html/main/public/index.php on line 12
+[15-Sep-2015 11:43:53 UTC] PHP Fatal error:  require(): Failed opening required '/home/rpinterf/public_html/main/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rpinterf/public_html/main/public/index.php on line 12
+[15-Sep-2015 11:43:53 UTC] PHP Fatal error:  require(): Failed opening required '/home/rpinterf/public_html/main/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rpinterf/public_html/main/public/index.php on line 12
+[15-Sep-2015 19:44:58 UTC] PHP Fatal error:  Call to a member function bb_parse() on a non-object in /home/rpinterf/public_html/application/controller/OthersController.php on line 30
+[15-Sep-2015 19:45:04 UTC] PHP Fatal error:  Call to a member function bb_parse() on a non-object in /home/rpinterf/public_html/application/controller/OthersController.php on line 30
+[15-Sep-2015 19:45:10 UTC] PHP Fatal error:  Call to a member function bb_parse() on a non-object in /home/rpinterf/public_html/application/controller/OthersController.php on line 30
+[15-Sep-2015 19:45:13 UTC] PHP Fatal error:  Call to a member function bb_parse() on a non-object in /home/rpinterf/public_html/application/controller/OthersController.php on line 30
+[15-Sep-2015 19:45:52 UTC] PHP Fatal error:  Call to a member function bb_parse() on a non-object in /home/rpinterf/public_html/application/controller/OthersController.php on line 30
+[15-Sep-2015 19:51:01 UTC] PHP Fatal error:  Call to a member function bb_parse() on a non-object in /home/rpinterf/public_html/application/controller/OthersController.php on line 30
+[15-Sep-2015 19:53:10 UTC] PHP Fatal error:  Call to a member function bb_parse() on a non-object in /home/rpinterf/public_html/application/controller/OthersController.php on line 30
+[15-Sep-2015 20:19:11 UTC] PHP Fatal error:  Call to a member function bb_parse() on a non-object in /home/rpinterf/public_html/application/controller/OthersController.php on line 30
+[15-Sep-2015 22:20:09 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/rpinterf/public_html/application/core/RSS.php:8
+Stack trace:
+#0 /home/rpinterf/public_html/application/core/RSS.php(8): SimpleXMLElement->__construct('')
+#1 /home/rpinterf/public_html/application/core/RSS.php(33): RSS::get('http://thepack....')
+#2 /home/rpinterf/public_html/application/core/RSS.php(67): RSS::getMultiple(Array)
+#3 /home/rpinterf/public_html/application/model/SiteModel.php(17): RSS::getMultipleLimited(Array, '5')
+#4 /home/rpinterf/public_html/application/controller/IndexController.php(40): SiteModel::getAllNews('5')
+#5 /home/rpinterf/public_html/application/core/Application.php(40): IndexController->news()
+#6 /home/rpinterf/public_html/public/index.php(14): Application->__construct()
+#7 {main}
+  thrown in /home/rpinterf/public_html/application/core/RSS.php on line 8
+[19-Sep-2015 10:01:19 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/rpinterf/public_html/application/core/RSS.php:8
+Stack trace:
+#0 /home/rpinterf/public_html/application/core/RSS.php(8): SimpleXMLElement->__construct('<?xml version="...')
+#1 /home/rpinterf/public_html/application/core/RSS.php(33): RSS::get('http://thepack....')
+#2 /home/rpinterf/public_html/application/core/RSS.php(67): RSS::getMultiple(Array)
+#3 /home/rpinterf/public_html/application/model/SiteModel.php(17): RSS::getMultipleLimited(Array, '10')
+#4 /home/rpinterf/public_html/application/controller/IndexController.php(40): SiteModel::getAllNews('10')
+#5 /home/rpinterf/public_html/application/core/Application.php(40): IndexController->news()
+#6 /home/rpinterf/public_html/public/index.php(14): Application->__construct()
+#7 {main}
+  thrown in /home/rpinterf/public_html/application/core/RSS.php on line 8
+[27-Nov-2015 01:01:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/rpinterf/public_html/application/core/Database.php:29
+Stack trace:
+#0 /home/rpinterf/public_html/application/core/Database.php(29): PDO->__construct('mysql:host=loca...', 'rpinterf_public', 'ElFrn3c*RtJm', Array)
+#1 /home/rpinterf/public_html/application/model/GameModel.php(8): Database->getConnection()
+#2 /home/rpinterf/public_html/application/controller/GameController.php(39): GameModel::getAllGames()
+#3 /home/rpinterf/public_html/application/core/Application.php(40): GameController->rss()
+#4 /home/rpinterf/public_html/public/index.php(14): Application->__construct()
+#5 {main}
+  thrown in /home/rpinterf/public_html/application/core/Database.php on line 29
+[27-Nov-2015 01:05:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/rpinterf/public_html/application/core/Database.php:29
+Stack trace:
+#0 /home/rpinterf/public_html/application/core/Database.php(29): PDO->__construct('mysql:host=loca...', 'rpinterf_public', 'ElFrn3c*RtJm', Array)
+#1 /home/rpinterf/public_html/application/model/GameModel.php(109): Database->getConnection()
+#2 /home/rpinterf/public_html/application/controller/GameController.php(53): GameModel::getPublicInfoOfGameByGamename('dungeoneer-s-gu...')
+#3 [internal function]: GameController->game('dungeoneer-s-gu...')
+#4 /home/rpinterf/public_html/application/core/Application.php(37): call_user_func_array(Array, Array)
+#5 /home/rpinterf/public_html/public/index.php(14): Application->__construct()
+#6 {main}
+  thrown in /home/rpinterf/public_html/application/core/Database.php on line 29
+[27-Nov-2015 01:07:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1040] Too many connections' in /home/rpinterf/public_html/application/core/Database.php:29
+Stack trace:
+#0 /home/rpinterf/public_html/application/core/Database.php(29): PDO->__construct('mysql:host=loca...', 'rpinterf_public', 'ElFrn3c*RtJm', Array)
+#1 /home/rpinterf/public_html/application/model/GameModel.php(25): Database->getConnection()
+#2 /home/rpinterf/public_html/application/view/_templates/navbar.php(17): GameModel::getAllGamesForNav(NULL)
+#3 /home/rpinterf/public_html/application/core/View.php(82): require('/home/rpinterf/...')
+#4 /home/rpinterf/public_html/application/view/index/terms.php(5): View->renderNavbar()
+#5 /home/rpinterf/public_html/application/core/View.php(36): require('/home/rpinterf/...')
+#6 /home/rpinterf/public_html/application/controller/IndexController.php(27): View->renderWithAll('index/terms')
+#7 /home/rpinterf/public_html/application/core/Application.php(40): IndexController->terms()
+#8 /home/rpinterf/public_html/p in /home/rpinterf/pub
